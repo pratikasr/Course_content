@@ -4,15 +4,13 @@ KV stores in Cosmos SDK are key-value stores that allow developers to store and 
 
 The KVStore interface is defined as follows:
 
-goCopy code
-
-`type KVStore interface {
-  Get(key []byte) []byte
-  Set(key []byte, value []byte)
-  Delete(key []byte)
-  Has(key []byte) bool
-  Iterator(start, end []byte) Iterator
-}` 
+    type KVStore interface {
+    Get(key []byte) []byte
+    Set(key []byte, value []byte)
+    Delete(key []byte)
+    Has(key []byte) bool
+    Iterator(start, end []byte) Iterator
+    }
 
 The `Get()` method retrieves the value associated with a given key, while the `Set()` method sets the value associated with a given key. The `Delete()` method removes the key-value pair associated with a given key, and the `Has()` method checks if a given key is present in the store. The `Iterator()` method provides a way to iterate over a range of keys in the store.
 
@@ -24,9 +22,9 @@ The CommitMultiStore module is implemented as a wrapper around a MultiStore obje
 
 The CommitMultiStore module provides two main methods:
 
-goCopy code
 
 `func (cms *CommitMultiStore) Start(ctx sdk.Context, txBytes []byte) sdk.Context`
+
 `func (cms *CommitMultiStore) EndAndCommit(ctx sdk.Context)` 
 
 The `Start()` method starts a new multi-store transaction and returns a new context object that is used to execute the transaction. The `EndAndCommit()` method completes the transaction and commits the changes to the KV stores. If any of the KV stores fails to commit its changes, all the changes are rolled back.
