@@ -1,0 +1,14 @@
+## What is Cosmos SDK?
+The Cosmos SDK is a modular framework for building decentralized applications (dApps) and blockchain networks. It provides developers with the tools and resources necessary to create their own custom blockchain networks that can interoperate with other networks in the Cosmos ecosystem.
+
+At a high level, the Cosmos SDK can be thought of as consisting of two layers: the network layer and the application layer. The network layer provides the underlying infrastructure for the blockchain network, while the application layer is where the specific dApps and smart contracts reside.
+
+The network layer of the Cosmos SDK is responsible for managing the consensus protocol that allows nodes on the network to agree on a shared state of the blockchain. The consensus protocol used by Cosmos is based on the Tendermint consensus algorithm, which is designed to be fast, efficient, and highly secure. The Tendermint consensus algorithm is based on a practical Byzantine fault tolerance (PBFT) consensus mechanism, which solves the Byzantine Generals' Problem (BGP).
+
+The Byzantine Generals' Problem (BGP) is a classic computer science problem that refers to the challenge of achieving consensus among a group of distributed nodes in the presence of faulty or malicious nodes. The problem is named after the scenario of a group of Byzantine generals who must coordinate their attack on a common enemy, but some of the generals may be traitors who seek to undermine the plan.
+
+In the context of blockchain networks, the BGP is relevant because it represents the challenge of achieving consensus among nodes that may be untrustworthy or malicious. The Tendermint consensus algorithm solves this problem by requiring that at least two-thirds of the nodes on the network are honest and follow the protocol correctly. This ensures that the network can reach consensus even in the presence of faulty or malicious nodes.
+
+The application layer of the Cosmos SDK is where developers can create their own custom dApps and smart contracts that run on top of the blockchain network. This layer provides developers with a wide range of tools and resources, including a software development kit (SDK) that makes it easy to build and deploy custom applications on the network.
+
+Overall, the Cosmos SDK is a powerful framework that enables developers to build custom blockchain networks that are fast, efficient, and highly secure. By providing a modular architecture and a range of powerful tools and resources, the Cosmos SDK makes it easy for developers to create innovative dApps and smart contracts that can interoperate with other networks in the Cosmos ecosystem.
