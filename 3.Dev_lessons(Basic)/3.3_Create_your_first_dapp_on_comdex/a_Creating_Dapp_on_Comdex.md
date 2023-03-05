@@ -84,10 +84,11 @@ Description: Its an asset pair extension comprising specific vault properties li
 
 Msg Struct:
 
-`{"msg\_add\_extended\_pairs\_vault":{"app\_id":,
-            "pair\_id":,
+`{"msg\_add\_extended\_pairs\_vault":{
+                  "app\_id":,
+                  "pair\_id":,
                   "stability\_fee":,
-                "closing\_fee": ,
+                  "closing\_fee": ,
                   "liquidation\_penalty": ,
                   "draw\_down\_fee": ,
                   "is\_vault\_active":,
@@ -96,9 +97,10 @@ Msg Struct:
                   "is\_stable\_mint\_vault": ,
                   "min\_cr":,
                   "pair\_name" : ,
-                "asset\_out\_oracle\_price":,
-              "asset\_out\_price":,
-              "min\_usd\_value\_left": }}`
+                  "asset\_out\_oracle\_price":,
+                  "asset\_out\_price":,
+                  "min\_usd\_value\_left": }
+                  }`
 
 #### 2\. Initialise collector data
 
