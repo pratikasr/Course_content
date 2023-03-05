@@ -84,7 +84,7 @@ Description: Its an asset pair extension comprising specific vault properties li
 
 Msg Struct:
 
-{"msg\_add\_extended\_pairs\_vault":{"app\_id":,
+`{"msg\_add\_extended\_pairs\_vault":{"app\_id":,
             "pair\_id":,
                   "stability\_fee":,
                 "closing\_fee": ,
@@ -98,7 +98,7 @@ Msg Struct:
                   "pair\_name" : ,
                 "asset\_out\_oracle\_price":,
               "asset\_out\_price":,
-              "min\_usd\_value\_left": }}
+              "min\_usd\_value\_left": }}`
 
 #### 2\. Initialise collector data
 
