@@ -5,11 +5,11 @@ KV stores in Cosmos SDK are key-value stores that allow developers to store and 
 The KVStore interface is defined as follows:
 
     type KVStore interface {
-    Get(key []byte) []byte
-    Set(key []byte, value []byte)
-    Delete(key []byte)
-    Has(key []byte) bool
-    Iterator(start, end []byte) Iterator
+        Get(key []byte) []byte
+        Set(key []byte, value []byte)
+        Delete(key []byte)
+        Has(key []byte) bool
+        Iterator(start, end []byte) Iterator
     }
 
 The `Get()` method retrieves the value associated with a given key, while the `Set()` method sets the value associated with a given key. The `Delete()` method removes the key-value pair associated with a given key, and the `Has()` method checks if a given key is present in the store. The `Iterator()` method provides a way to iterate over a range of keys in the store.
