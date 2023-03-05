@@ -13,24 +13,19 @@ The Cosmos SDK is a framework for building blockchain applications that are inte
 ### Lesson 2: Cosmos SDK Basics
 
 -   Understanding the Cosmos SDK architecture
--   Building a simple blockchain application with the SDK
--   Using the Cosmos SDK command-line interface (CLI)
+-   Understanding the ignite tool for module creation
 
 ### Lesson 3: State Management with Cosmos SDK
 
 -   Understanding state management in Cosmos SDK
--   Using the SDK's key-value store for state management
 -   Storing and retrieving data in the key-value store
 
 
 ### Lesson 4: Building Custom Modules in Cosmos SDK
 
--   Understanding the module architecture of Cosmos SDK
 -   Building a custom module from scratch
--   Using the SDK's module generator to scaffold code
 
 ### Lesson 5: Interacting with External Networks
 
 -   Understanding inter-blockchain communication (IBC)
 -   Sending and receiving transactions between Cosmos SDK and other networks
--   Using the SDK's IBC module
