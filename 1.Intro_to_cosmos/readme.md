@@ -29,3 +29,4 @@ The Cosmos SDK is a framework for building blockchain applications that are inte
 
 -   Understanding inter-blockchain communication (IBC)
 -   Sending and receiving transactions between Cosmos SDK and other networks
+-   Setting up a go relayer
