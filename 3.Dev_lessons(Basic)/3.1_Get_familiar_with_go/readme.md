@@ -51,3 +51,7 @@
 -   Introduction to concurrency in Go
 -   Using Goroutines and Channels
 -   Understanding race conditions and synchronization
+
+## References
+https://go.dev/doc/tutorial/getting-started
+https://www.w3schools.com/go/

@@ -116,7 +116,7 @@ Msg Struct:
           "locker\_saving\_rate":,
           "lot\_size":,
           "bid\_factor":,
-            "debt\_lot\_size":}}
+          "debt\_lot\_size":}}
 
 #### 3\. Whitelist Asset for locker
 
@@ -229,7 +229,7 @@ Description: Its an asset pair extension comprising specific vault properties li
 
 Msg Struct:
 
-"msg\_add\_e\_s\_m\_trigger\_params":{"app\_id":,
+{"msg\_add\_e\_s\_m\_trigger\_params":{"app\_id":,
   "target\_value":{"amount":, "denom":},
       "cool\_off\_period":}}
 

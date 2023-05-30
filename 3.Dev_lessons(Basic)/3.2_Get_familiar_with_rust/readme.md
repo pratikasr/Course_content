@@ -47,7 +47,7 @@
 
 ### Lesson 8: Concurrency in Rust
 
--   Introduction to concurrency in Rust
+-   Introduction to Concurrency in Rust
 -   Using threads and channels
 -   Understanding race conditions and synchronization
 
@@ -56,3 +56,7 @@
 -   Reading and writing files in Rust
 -   Using file I/O functions in Rust
 -   Understanding streams and buffers in Rust
+
+## References
+https://doc.rust-lang.org/book/
+https://www.w3schools.io/languages/rust-tutorials/

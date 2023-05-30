@@ -10,10 +10,10 @@ A loan has several properties that define its terms and conditions, such as id, 
 
 In a loan transaction, there are two parties involved: the borrower and the lender. The borrower requests the loan and agrees to pay it back, while the lender approves the loan and provides the borrower with the loan amount.
 
-As a borrower, you can perform actions such as requesting a loan, cancelling a loan, or repaying a loan. Requesting a loan allows you to specify the terms and conditions of the loan, while cancelling a loan enables you to withdraw your request. Repaying a loan allows you to pay back the loan amount plus the fee to the lender in accordance with the loan terms.
+As a borrower, you can perform actions such as requesting a loan, cancelling a loan, or repaying a loan. Requesting a loan allows you to specify the terms and conditions of the loan while cancelling a loan enables you to withdraw your request. Repaying a loan allows you to pay back the loan amount plus the fee to the lender by the loan terms.
 
 As a lender, you can approve a loan or liquidate a loan. Approving a loan allows you to accept the terms and conditions of the loan and send the loan amount to the borrower. Liquidating a loan allows you to seize the collateral if the borrower is unable to pay back the loan by the deadline.
 
 By performing these actions, lenders and borrowers can interact with each other and facilitate the lending and borrowing of digital assets on the platform. The platform provides access to financial instruments and services that allow users to manage their assets and achieve their financial goals in a secure and transparent manner.
 
-Reference : https://github.com/pratikasr/comdex/tree/development/x/loan
+Reference: https://github.com/pratikasr/comdex/tree/development/x/loan
