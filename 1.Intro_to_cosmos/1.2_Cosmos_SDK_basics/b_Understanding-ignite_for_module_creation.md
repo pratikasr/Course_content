@@ -9,7 +9,7 @@ To use Ignite to create a module in Cosmos SDK, you can follow these steps:
 6.  Build and deploy the module.
 
   
-Sure, here are some more details about each step:
+Here are some more details about each step:
 
 1. Install Ignite
 
